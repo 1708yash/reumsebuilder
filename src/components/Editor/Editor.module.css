@@ -1,0 +1,57 @@
+.container{
+    min-width: 550px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.12);
+    padding-top: 20px;
+}
+
+.header{
+    display: flex;
+    gap:50px;
+    overflow-x: hidden;
+    border-bottom: 1px solid #e0e0e0;
+   
+}
+
+.header .section{
+    padding:10px;
+    border-bottom:2px solid trasparent;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+     transition-duration: 0.5s;
+}
+.header .active{
+    border-bottom:2px solid #239ce2;
+    color: #239ce2;
+}
+.body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 0;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detail .row {
+  display: flex;
+  gap: 20px;
+}
+.detail .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.detail .row > div {
+  flex: 1;
+}
