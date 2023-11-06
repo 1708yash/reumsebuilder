@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Editor.module.css";
 import InputControl from "../InputControl/InputControl";
+import { X } from "react-feather";
 
 function Editor(props) {
   const sections = props.sections;
@@ -188,6 +189,16 @@ function Editor(props) {
       </div>
       <div className={styles.body}>
         <InputControl label="Title" placeholder="Enter section Title" />
+        <div className={styles.chips}>
+          <div className={styles.chip}>
+            <p>Project1</p>
+            <X size={12} />
+          </div>
+          <div className={styles.chip}>
+            <p>Project2</p>
+            <X size={12} />
+          </div>
+        </div>
         {generateBody()}
       </div>
     </div>

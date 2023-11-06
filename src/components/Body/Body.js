@@ -1,3 +1,4 @@
+//  closed at video 2 19:49
 import React from 'react'
 import styles from './Body.module.css'
 import { Download } from 'react-feather';
@@ -21,6 +22,8 @@ const sections= {
   summary:"Summary",
   other:"Other",
 }
+
+
   return (
     <div className={styles.container}>
       <p className={styles.heading}> </p>
